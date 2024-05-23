@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+.blogCard {
+    float: left;
+    width: 100%;
+}
+
+/* Add a card effect for articles */
+.blogCard {
+    background-color: rgb(244, 244, 244);
+    padding: 20px;
+    margin-top: 20px;
+}
+
+/* Clear floats after the columns */
+.block:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 800px) {
+
+    .leftcolumn,
+    .rightcolumn {
+        width: 100%;
+        padding: 0;
+    }
+}

@@ -13,6 +13,7 @@ h2 {
     display: inline-flex;
     justify-content: left;
     float: left;
+
 }
 
 li img {
@@ -21,20 +22,13 @@ li img {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    color: white;
+    text-align: center;
 }
 
 li {
     float: right;
 }
-
-li img {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 15px 20px;
-    text-decoration: none;
-}
-
 
 /*html*/
 .centered {
@@ -52,6 +46,12 @@ li img {
     padding-top: 20px;
     padding-bottom: 20px;
 }
+
+a {
+    color: #866D4B;
+    text-decoration: none;
+}
+
 
 /*Left*/
 .left {
@@ -90,8 +90,5 @@ footer {
     padding: 3px;
     background-color: rgb(54, 53, 53);
     color: white;
-}
-
-a {
-    color: #866D4B;
+    text-decoration: none;
 }
