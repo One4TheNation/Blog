@@ -13,7 +13,7 @@
 <!---->
 
 <body>
-    <header class="header">
+    <header class="header" id="header">
         <nav>
             <ul>
                 <li><img src="./Assets/images/White.png" alt="Vandy" href="Assets/images/White.png"></li>
@@ -31,6 +31,7 @@
         <section class="split right">
             <div class="centered">
                 <container class="input">
+                    <form action="blog.html">
                     <label class="userName" for="username">Username:</label><br>
                     <input type="text" id="userName" name="userName" value=""><br>
                     <label for="country">Country</label><br>
@@ -42,24 +43,22 @@
                     <label class="title" for="title">Title:</label><br>
                     <input type="text" id="title" name="title" value=""><br>
                     <label class="comment" for="comment">Comment:</label><br>
-                    <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br>
-                    <form action="blog.html">
-                        <input type="submit" value="submit"></a><br>
+                    <textarea rows="4" cols="50" name="comment" id="usrForm" form="usrform">Enter text here...</textarea><br>
+                        <input href="#" type="submit" id="button" value="submit"onclick="submitForm()"></a><br>
                     </form>
                 </container>
             </div>
         </section>
     </main>
-    <!---->
+    <!--
     <footer>
         <p>Author: Phillip Navrre<br>
             <a href="mailto:none@example.com">none@example.com</a>
         </p>
-    </footer>
+    </footer>-->
     <!---->
     <script src="blog.js"></script>
     <script src="form.js"></script>
-    <script src="logic.js"></script>
 </body>
 
 </html>

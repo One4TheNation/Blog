@@ -42,7 +42,7 @@ li {
 .split {
     height: 100%;
     width: 50%;
-    position: fixed;
+    position: absolute;
     padding-top: 20px;
     padding-bottom: 20px;
 }
@@ -73,12 +73,14 @@ a {
 
 /*footer*/
 footer {
+    position: relative;
     text-align: center;
     padding: 3px;
     background-color: rgb(54, 53, 53);
     color: white;
     text-decoration: none;
     margin-top: auto
+    
 }
 
 @media only screen and (max-width: 620px) {

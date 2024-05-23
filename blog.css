@@ -1,13 +1,25 @@
 .block{
     padding: 25px;
-    margin: auto;
-    width: 0;
-    height: 30vh;
-    border: slategray;
+    margin: 15px;
+    width: auto;
+    height: 100px;
     float: initial;
-
 }
 
+section{
+    border-style: solid;
+    padding-left: 20px;
+}
+
+main{
+    margin: 15px;
+}
+
+.foot{
+    padding: 25px;
+    margin-bottom: auto;
+    line-height: 1.8;
+}
 
 @media only screen and (max-width: 620px) {
 
