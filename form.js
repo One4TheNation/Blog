@@ -5,8 +5,15 @@ const title = document.querySelectorAll("title")
 const comment = document.querySelectorAll("userForm")
 const button = document.querySelectorAll("button")
 
-button.addEventListener("click", function () {
+button.addEventListener("click", function (event) {
     event.preventDefault();
+
+    let blogs = []
+    const data = JSON.parse(localStorage.getItem(blog));
+
+    if (data){
+        blogs = data;
+    }
 
     const blog = {
         userName: userName.value,
@@ -15,11 +22,9 @@ button.addEventListener("click", function () {
         comment: comment.value
     };
 
-    localStorage.setItem("blog", JSON.stringify(blog));
+blog.push(blog);
 
-    window.location.href = "blog.html"
-});
+localStorage.setItem("blogs", JSON.stringify(blogs));
+location.assign('blog.html')
 
-goBack.addEventListener("click", function () {
-    window.location.href = "index.html";
 });
