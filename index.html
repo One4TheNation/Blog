@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="form.css">
+    <link rel="stylesheet" href="blog.css">
+    <title>Blog Site</title>
+</head>
+<!---->
+
+<body>
+    <header class="header">
+        <nav>
+            <ul>
+                <li><img src="./Assets/images/White.png" alt="Vandy" href="Assets/images/White.png"></li>
+            </ul>
+        </nav>
+    </header>
+    <!---->
+    <main>
+        <section class="split left">
+            <div class="centered">
+                <img src="./Assets/images/blog-high-resolution-logo-white.jpeg" alt="Blog">
+            </div>
+        </section>
+        <!--Split-->
+        <section class="split right">
+            <div class="centered">
+                <container class="input">
+                    <label class="userName" for="username">Username:</label><br>
+                    <input type="text" id="userName" name="userName" value=""><br>
+                    <label for="country">Country</label><br>
+                    <select class="country" id="country" name="country"><br>
+                        <option value="usa">United States of America</option>
+                        <option value="canada">Canada</option>
+                        <option value="mexico">Mexico</option>
+                    </select><br>
+                    <label class="title" for="title">Title:</label><br>
+                    <input type="text" id="title" name="title" value=""><br>
+                    <label class="comment" for="comment">Comment:</label><br>
+                    <textarea rows="4" cols="50" name="comment" form="usrform">Enter text here...</textarea><br>
+                    <form action="blog.html">
+                        <input type="submit" value="submit"></a><br>
+                    </form>
+                </container>
+            </div>
+        </section>
+    </main>
+    <!---->
+    <footer>
+        <p>Author: Phillip Navrre<br>
+            <a href="mailto:none@example.com">none@example.com</a>
+        </p>
+    </footer>
+    <!---->
+    <script src="blog.js"></script>
+    <script src="form.js"></script>
+    <script src="logic.js"></script>
+</body>
+
+</html>
