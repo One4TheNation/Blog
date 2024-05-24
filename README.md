@@ -23,4 +23,4 @@ My Challenge Work Process
     B. Added section dividers to each section using this structure: <!--blank-->
     C. Consolidated consolidated code and expanded on classes 
 
-[deployed link]()
+[deployed link](https://one4thenation.github.io/Blog/)
