@@ -7,10 +7,12 @@ input[type=text], select {
     border: 1px solid #000000;
     border-radius: 4px;
     box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 textarea {
     border: 1px solid #000000;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 input[type=submit] {
@@ -22,17 +24,34 @@ input[type=submit] {
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-input[type=submit]:hover {
-    background-color: #866D4B;
+p {
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 label {
     padding: 20px;
 }
 
+button{
+    background-color: #866D4B;
+    color: white;
+    width: 212px;
+    height: 28px;
+    border-radius: 6px;
+    font-family: Arial, Helvetica, sans-serif;
+}
 
+button:hover {
+    background-color: #606060;
+    color:rgb(0, 0, 0)
+}
+
+.input{
+    font-family: Arial, Helvetica, sans-serif;
+}
 
 /* Media Quires*/
 @media screen and (min-width: 768px) {

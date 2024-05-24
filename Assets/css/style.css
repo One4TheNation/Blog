@@ -1,4 +1,5 @@
 /*nav*/
+
 ul {
     list-style-type: none;
     display: flex;
@@ -13,8 +14,14 @@ h2 {
     display: inline-flex;
     justify-content: left;
     float: left;
-
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+h2:hover {
+    color: rgb(255, 255, 255);
+    background-color: #866D4B;
+}
+
 
 li img {
     width: 45px;
@@ -48,8 +55,13 @@ li {
 }
 
 a {
-    color: #866D4B;
+    color: #000000;
     text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+p{
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -76,7 +88,7 @@ footer {
     position: relative;
     text-align: center;
     padding: 3px;
-    background-color: rgb(54, 53, 53);
+    background-color: #866D4B;
     color: white;
     text-decoration: none;
     margin-top: auto
